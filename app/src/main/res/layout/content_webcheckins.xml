@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.flo.av.WebcheckinsActivity"
+    tools:showIn="@layout/activity_webcheckins"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAerLingus"
+        android:onClick="openAerLingus"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAirBerlin"
+        android:onClick="openAirBerlin"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAirFrance"
+        android:onClick="openAirFrance"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAlitalia"
+        android:onClick="openAlitalia"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAustrianAirlines"
+        android:onClick="openAustrianAirlines"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringBritishAirways"
+        android:onClick="openBritishAirways"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringEmirates"
+        android:onClick="openEmirates"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringEurowings"
+        android:onClick="openEurowings"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringEvaAir"
+        android:onClick="openEvaAir"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringIberia"
+        android:onClick="openIberia"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringKLM"
+        android:onClick="openKLM"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringNiki"
+        android:onClick="openNiki"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>

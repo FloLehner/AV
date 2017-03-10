@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.flo.av.MenuActivity"
+    tools:showIn="@layout/activity_menu"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringquicklinks"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_list"
+        android:id="@+id/quicklinks"
+        android:onClick="showQuicklinks"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+       />
+
+<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringwebcheckin"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_airplane"
+        android:id="@+id/webcheckin"
+        android:onClick="showWebcheckins"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringhandgepäck"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:id="@+id/handgepäck"
+        android:onClick="showHandgepäck"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringcheckliste"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_checklist"
+        android:id="@+id/checkliste"
+        android:onClick="showCheckliste"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringnotfallnummern"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_action_name2"
+        android:id="@+id/notfallnummern"
+        android:onClick="showNotfallnummern"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringzollundartenschutz"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_stopsign"
+        android:id="@+id/zollundartenschutz"
+        android:onClick="showZollundartenschutz"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringkontakt"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_contact"
+        android:id="@+id/kontakt"
+        android:onClick="showKontakt"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringwebsite"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_internet2"
+        android:id="@+id/website"
+        android:onClick="showWebsite"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"/>
+        
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.flo.av.NotfallnummernActivity"
+    tools:showIn="@layout/activity_notfallnummern"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringRV"
+        android:gravity="left|center_vertical"
+        android:onClick="callRV"
+        android:drawableLeft="@drawable/ic_call"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAVhotline"
+        android:onClick="callAV"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_call"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Euronotruf"
+        android:gravity="left|center"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_call"
+        android:onClick="callEU"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+
+
+
+
+</LinearLayout>

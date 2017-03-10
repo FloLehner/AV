@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.flo.av.chooseClothChild"
+    tools:showIn="@layout/activity_choose_cloth_child"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringBabygrößen"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:onClick="chooseBabygrößen"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringKindergrößen"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:onClick="chooseKindergrößen"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringJungengrößen"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:onClick="chooseJungengrößen"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringMädchengrößen"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:onClick="chooseMädchengrößen"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringKinderUndBabyschuhe"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/ic_arrowright"
+        android:onClick="chooseKinderUndBabySchuhe"
+        android:layout_marginBottom="11dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/menuborder"
+        android:textSize="16dp"/>
+
+</LinearLayout>
+</ScrollView>

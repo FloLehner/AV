@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.flo.av.travelLists"
+    tools:showIn="@layout/activity_travel_lists"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="showCityList">
+        <TableRow>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/cityscape"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Städtereise"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom|right"
+        />
+
+        </TableRow>
+</TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="showRoundtripList">
+    <TableRow>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/globe"
+        />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Rundreise"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom|right"
+            />
+
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="showFamilyvacationList">
+    <TableRow>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/road"
+        />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Autoreise"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom|right"
+            />
+
+    </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="showShipList">
+    <TableRow>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/boat"
+        />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kreuzfahrt"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom|right"
+            />
+
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_border"
+        android:padding="10dp"
+        android:layout_marginBottom="11dp"
+        android:onClick="showStandardList">
+    <TableRow>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/sunbed"
+        />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Strandurlaub"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="bottom|right"
+            />
+
+
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView>
+

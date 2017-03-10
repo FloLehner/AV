@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flo.av">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_menu_logo_circle"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuicklinksActivity"
+            android:label="@string/title_activity_quicklinks"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebcheckinsActivity"
+            android:label="@string/title_activity_webcheckins"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChecklisteActivity"
+            android:label="@string/title_activity_checkliste"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HandgepaeckActivity"
+            android:label="@string/title_activity_handgepaeck"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotfallnummernActivity"
+            android:label="@string/title_activity_notfallnummern"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ZollunArtenschutzActivity"
+            android:label="@string/title_activity_zollun_artenschutz"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KontaktActivity"
+            android:label="@string/title_activity_kontakt"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebsiteActivity"
+            android:label="@string/title_activity_website"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".createlistActivity"
+            android:label="@string/title_activity_createlist"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManActivity"
+            android:label="@string/title_activity_man"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WomanActivity"
+            android:label="@string/title_activity_woman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChildActivity"
+            android:label="@string/title_activity_child"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chooseClothMan"
+            android:label="@string/title_activity_choose_cloth_man"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chooseClothWoman"
+            android:label="@string/title_activity_choose_cloth_woman"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chooseClothChild"
+            android:label="@string/title_activity_choose_cloth_child"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcUnterwaesche"
+            android:label="@string/title_activity_calc_unterwaesche"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chooseAnzugJackenHerren"
+            android:label="@string/title_activity_choose_anzug_jacken_herren"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chooseSchuheHerren"
+            android:label="@string/title_activity_choose_schuhe_herren"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcJeansHerren"
+            android:label="@string/title_activity_calc_jeans_herren"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcHosenHerren"
+            android:label="@string/title_activity_calc_hosen_herren"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcUnterwaescheFrauen"
+            android:label="@string/title_activity_calc_unterwaesche_frauen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcBHsInternationalFrauen"
+            android:label="@string/title_activity_calc_bhs_international_frauen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcSchuheFrauen"
+            android:label="@string/title_activity_calc_schuhe_frauen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcBekleidungsgroessenFrauen"
+            android:label="@string/title_activity_calc_bekleidungsgroessen_frauen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcJungengroessen"
+            android:label="@string/title_activity_calc_jungengroessen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcMaedchengroessen"
+            android:label="@string/title_activity_calc_maedchengroessen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcBabygroessen"
+            android:label="@string/title_activity_calc_babygroessen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcKinderUndBabyschuhe"
+            android:label="@string/title_activity_calc_kinder_und_babyschuhe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calcKindergroessen"
+            android:label="@string/title_activity_calc_kindergroessen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".travelLists"
+            android:label="@string/title_activity_travel_lists"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".City"
+            android:label="@string/title_activity_city"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Roundtrip"
+            android:label="@string/title_activity_roundtrip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Familyvacation"
+            android:label="@string/title_activity_familyvacation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ship"
+            android:label="@string/title_activity_ship"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Standardvacation"
+            android:label="@string/title_activity_standardvacation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".mapKottingbrunn"
+            android:label="@string/title_activity_kottingbrunn" />
+        <activity
+            android:name=".mapTraiskirchen"
+            android:label="@string/title_activity_map_traiskirchen"></activity>
+    </application>
+
+</manifest>
